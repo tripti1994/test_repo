@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23280" started-at="2019-12-23T12:23:40Z" finished-at="2019-12-23T12:24:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23280" started-at="2019-12-23T12:23:40Z" finished-at="2019-12-23T12:24:03Z">
+      <class name="com.nfa.app.AprrovePCN">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.nfa.app.AprrovePCN@1a968a59]" name="setup" is-config="true" duration-ms="13373" started-at="2019-12-23T17:53:40Z" finished-at="2019-12-23T17:53:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ApprovPCNRequest(java.lang.String, java.lang.String)[pri:0, instance:com.nfa.app.AprrovePCN@1a968a59]" name="ApprovPCNRequest" duration-ms="7194" started-at="2019-12-23T17:53:55Z" data-provider="approver" finished-at="2019-12-23T17:54:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13207211]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApprovPCNRequest -->
+        <test-method status="PASS" signature="AfterTM(org.testng.ITestResult)[pri:0, instance:com.nfa.app.AprrovePCN@1a968a59]" name="AfterTM" is-config="true" duration-ms="851" started-at="2019-12-23T17:54:02Z" finished-at="2019-12-23T17:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ApprovPCNRequest status=SUCCESS method=AprrovePCN.ApprovPCNRequest(java.lang.String, java.lang.String)[pri:0, instance:com.nfa.app.AprrovePCN@1a968a59] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTM -->
+        <test-method status="PASS" signature="afterT()[pri:0, instance:com.nfa.app.AprrovePCN@1a968a59]" name="afterT" is-config="true" duration-ms="594" started-at="2019-12-23T17:54:03Z" finished-at="2019-12-23T17:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterT -->
+      </class> <!-- com.nfa.app.AprrovePCN -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

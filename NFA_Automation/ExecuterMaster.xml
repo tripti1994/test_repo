@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NFA Suit">
+  <test thread-count="1" name="Test-1">
+    <classes>
+      <class name="com.nfa.app.NFALoginTest"/>     
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" name="Test-2">
+    <classes>
+      <class name="com.nfa.app.CreatePCNRequestTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="3" name="Test-3">
+    <classes>
+      <class name="com.nfa.app.PCNReportTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="4" name="Test-4">
+    <classes>
+      <class name="com.nfa.app.PendingApprovalTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Test-5">
+    <classes>
+      <class name="com.nfa.app.ShowAllPCNTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="6" name="Test-6">
+    <classes>
+      <class name="com.nfa.app.CompletedApprovalTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="7" name="Test-7">
+    <classes>
+      <class name="com.nfa.app.AprooverRecommenderTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="8" name="Test-8">
+    <classes>
+      <class name="com.nfa.app.ApproverLoginTest"/>      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="9" name="Test-9">
+    <classes>
+      <class name="com.nfa.app.ViewPCNRequestTest"/>      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

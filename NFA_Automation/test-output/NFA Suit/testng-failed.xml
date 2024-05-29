@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [NFA Suit]">
+  <test name="Test-2(failed)">
+    <classes>
+      <class name="com.nfa.app.RejectPCN">
+        <methods>
+          <include name="setup"/>
+          <include name="AfterTM"/>
+        </methods>
+      </class> <!-- com.nfa.app.RejectPCN -->
+      <class name="com.nfa.app.NFALoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="AfterTM"/>
+        </methods>
+      </class> <!-- com.nfa.app.NFALoginTest -->
+      <class name="com.nfa.app.CreatePCNRequestTest">
+        <methods>
+          <include name="afterT"/>
+          <include name="AfterTM"/>
+          <include name="createPCN" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.nfa.app.CreatePCNRequestTest -->
+      <class name="com.nfa.app.AprrovePCN">
+        <methods>
+          <include name="setup"/>
+          <include name="afterT"/>
+          <include name="AfterTM"/>
+        </methods>
+      </class> <!-- com.nfa.app.AprrovePCN -->
+      <class name="com.nfa.app.ReferBackPCN">
+        <methods>
+          <include name="setup"/>
+          <include name="AfterTM"/>
+        </methods>
+      </class> <!-- com.nfa.app.ReferBackPCN -->
+    </classes>
+  </test> <!-- Test-2(failed) -->
+</suite> <!-- Failed suite [NFA Suit] -->
