@@ -1,2 +1,2 @@
 # test_repo
-this repo is for demonstration purpose
+this repo is for demonstration purpose only
